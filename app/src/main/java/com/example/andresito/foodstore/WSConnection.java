@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class WSConnection {
 
-    private String ip_connection="192.168.1.3";
+    private String ip_connection="192.168.1.3:8000";
 
     public WSConnection() {
     }
