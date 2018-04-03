@@ -62,6 +62,8 @@ public class FStoreException extends Exception{
             if (nameField.equals("cost") && Double.parseDouble(number.toString()) <= 0) {
                 throw new FStoreException("You need to insert positive decimal numbers");
             }
+        }catch (FStoreException fs){
+                throw new FStoreException("You need to insert positive decimal numbers");
         }catch (Exception e){
                 throw new FStoreException("The cost is a decimal number");
         }
