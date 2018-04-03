@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class WSConnection {
 
-    private String ip_connection="192.168.1.3:8000";
+    private String ip_connection="192.168.1.3";
 
     public WSConnection() {
     }
@@ -49,7 +49,7 @@ public class WSConnection {
         URL url; //url donde me voy a conectar
         String linea;
         int respuesta;
-        StringBuilder result=null;
+        StringBuilder result=new StringBuilder();
         try {
             url = new URL("http://"+this.ip_connection+"/webser/conectar.php");
             HttpURLConnection conection=(HttpURLConnection)url.openConnection();

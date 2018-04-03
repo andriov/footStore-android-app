@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FoodStore.iml" filepath="$PROJECT_DIR$/FoodStore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/footStore github.iml" filepath="$PROJECT_DIR$/footStore github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsontoarraylist/jsontoarraylist.iml" filepath="$PROJECT_DIR$/jsontoarraylist/jsontoarraylist.iml" />
     </modules>
   </component>
 </project>
