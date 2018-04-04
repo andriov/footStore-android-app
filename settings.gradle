@@ -1,1 +1,1 @@
-include ':app', ':jsontoarraylist'
+include ':app', ':jsontoarraylist', ':exceptions'
