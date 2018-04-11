@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andresito.foodstore.ProductRegister"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Title of activity PRODUCT REGISTER-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="PRODUCT REGISTER"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Product Name:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Text Editor of product name-->
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maximum 30 characters"
+        android:layout_weight="0.50"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Description Label-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Description:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Text Editor of description-->
+    <EditText
+        android:id="@+id/productDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maximun 240 characters"
+        android:layout_weight="0.50"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Stock Label-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Stock:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Text editor of integer number-->
+    <EditText
+        android:id="@+id/productStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Integer number"
+        android:layout_weight="0.50"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Cost Label-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Cost:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <!--Text editor of cost-->
+    <EditText
+        android:id="@+id/productCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number separed by dot"
+        android:layout_weight="0.50"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--Register Buttom-->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="REGISTER"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
