@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">YachayFood</string>
+    <string name="app_name">FoodStore</string>
+    <string name="registro">Registro</string>
+    <string name="Nombre_de_usuario">Nombre de usuario</string>
+    <string name="Contrasena">Contrasena</string>
+    <string name="Repita_contrasena">Repita la contrasena</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Email">Email</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Eres_un_vendedor">Eres un vendedor</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="Registrarse">Registrarse</string>
+
+    <string name="h_Nombre_de_usuario">JuanitoX</string>
+    <string name="h_Apellido">Perez</string>
+    <string name="h_Nombre">Juan</string>
+    <string name="h_Email">juan.perez@yachaytech.edu.ec</string>
+    <string name="h_Telefono">0984281869</string>
+    <string name="h_Direccion">A21</string>
+
+
 </resources>
